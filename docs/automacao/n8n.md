@@ -106,9 +106,23 @@ A utilização do n8n na infraestrutura Inoova traz diversos benefícios:
 
 # Uso no Projeto Infra Inoova
 
-Dentro do projeto Infra Inoova, o n8n representa a camada de automação da infraestrutura, permitindo integrar serviços e automatizar processos internos.
+Dentro do projeto Infra Inoova, o n8n representa a camada central de automação da infraestrutura, permitindo integrar serviços, orquestrar processos e automatizar tarefas operacionais.
 
-Essa abordagem simula ambientes corporativos modernos, onde plataformas de automação são utilizadas para aumentar produtividade e reduzir intervenção manual.
+Além da automação tradicional, o n8n também trabalha em conjunto com **modelos de inteligência artificial e LLMs (Large Language Models)** hospedados localmente na infraestrutura.
+
+Esses modelos são executados em containers utilizando **Docker**, permitindo disponibilizar serviços de IA através de APIs internas que podem ser consumidas pelos workflows do n8n.
+
+Essa integração possibilita automações mais avançadas, como:
+
+- Processamento de linguagem natural
+- Assistentes automatizados
+- Análise e geração de texto
+- Automação inteligente de tarefas
+- Integração de IA em fluxos operacionais
+
+Os workflows do n8n podem consumir esses serviços de IA para executar tarefas automatizadas que exigem análise ou geração de conteúdo, ampliando as capacidades da automação dentro da infraestrutura.
+
+Essa abordagem simula ambientes corporativos modernos, onde plataformas de automação trabalham em conjunto com serviços de inteligência artificial para aumentar produtividade, reduzir intervenção manual e otimizar processos operacionais.
 
 ---
 
